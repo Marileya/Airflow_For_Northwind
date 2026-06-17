@@ -25,6 +25,6 @@ https://github.com/pthom/northwind_psql
 Проект использует CeleryExecuror вместе с БД Redis, для контроля за workers используется Flower 
 - [x] Доработан docker_compose для запуска контейнеров Nortwhwind + pgAdmin
 - [x] Внесена часть с MinIO
-- [x] Созданы модели по БД с ичпользованием SQLAlchemy
-- [ ] 
-- [ ] 
+- [x] Созданы модели по БД с иcпользованием SQLAlchemy
+- [x] Доработана сборка проекта в Dockerfile с упаковкой существующих файлов и установкой необходимых зависимостей
+- [x] 
