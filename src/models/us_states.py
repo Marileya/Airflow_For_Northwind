@@ -7,7 +7,7 @@ from datetime import date
 from sqlalchemy import ForeignKey, Date, String, Text
 from sqlalchemy.orm import Mapped, mapped_column, relationship
 
-from core.db import Base
+from src.models.base import Base
 
 
 class US_State(Base):

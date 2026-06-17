@@ -1,6 +1,7 @@
 FROM apache/airflow:3.2.1
 
 WORKDIR /opt/airflow
+ENV PYTHONPATH=/opt/airflow
 
 RUN mkdir -p dags logs plugins config
 
@@ -16,7 +17,3 @@ COPY --chown=airflow:root config/ ./config/
 COPY --chown=airflow:root src/ ./src/
 
 USER airflow
-
-# RUN chown -R airflow:root /opt/airflow
-
-# RUN chmod -R 755 /opt/airflow

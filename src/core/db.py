@@ -2,7 +2,7 @@ from sqlalchemy import select, text
 from sqlalchemy.ext.asyncio import AsyncSession, create_async_engine
 from sqlalchemy.orm import sessionmaker
 
-from models.categories import Category
+from src.models.categories import Category
 
 # database_url = 'postgresql+asyncpg://postgres:postgres@localhost:55432/northwind'
 database_url = 'postgresql+asyncpg://postgres:postgres@db:5432/northwind'

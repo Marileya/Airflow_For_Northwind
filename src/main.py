@@ -1,6 +1,6 @@
 import asyncio
 
-from core.db import check_connection
+from src.core.db import check_connection
 
 
 if __name__ == "__main__":

@@ -5,7 +5,7 @@ from __future__ import annotations
 from sqlalchemy import Float, ForeignKey, Integer, SmallInteger, String, Text
 from sqlalchemy.orm import Mapped, mapped_column, relationship
 
-from core.db import Base
+from src.models.base import Base
 
 
 class Shipper(Base):
